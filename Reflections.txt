@@ -1,0 +1,8 @@
+Edits I made:
+1. I added in a new background and adjusted every element according to the theme colors of the background itself, as in using the color palette
+2. I tried adding a Contact box with JavaScript but it isn't really working for some odd reason
+3. I edited all the buttons to make them look better
+4. I formatted the columns to look more boxy since they look better as boxes rather than being floating lines of text
+
+Reflections: 
+I wasn't able to do much because I spent too long going back and forth with the javascript which still refuses to work, but I tried to tie everything together with the theme colors. 

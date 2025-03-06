@@ -1,0 +1,203 @@
+body {
+  color: white;
+  background-image: url("2.jpg"); 
+  background-attachment: fixed;
+  padding: 0px;
+  margin: 0px;
+  }
+
+head{
+  padding: 0px;
+}
+
+.name{
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+
+h2{
+  text-align: center;
+  background-color: #0A040A;
+}
+
+h3{
+  text-align: center;
+  background-color: #0A040A;
+  padding: 5px;
+}
+
+p{
+  background-color: rgb(10 4 10 / .50);
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+}
+
+.lists{
+  background-color: rgb(10 4 10 / .50);
+  color: #fff;
+  padding: 10px;
+  margin: 30px;
+}
+
+.subhead{
+  text-align: center;
+  background-color: #0A040A;
+  margin: 5px;
+}
+
+.start{
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  column-gap: 20px
+}
+
+
+.para {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A040A;
+  position: relative;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.nav {
+  float: right;
+}
+
+.nav a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #34274F;
+}
+
+.active {
+  background-color: #7B5587;
+}
+
+body{
+  margin-top: 80px;
+}
+
+footer{
+  list-style-type: none;
+  margin: 0;
+  padding-bottom: 10px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #0A040A;
+}
+
+.orcid{
+  filter: brightness(0) invert(1);
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.twocol{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 0.01fr 1fr;
+  column-gap: 20px;
+}
+
+h4{
+  font-size: 20px;
+  text-align: center;
+  background-color: #0A040A;
+  padding: 5px;
+}
+
+.threecol{
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 0.01fr 1fr 0.01fr 1fr;
+  column-gap: 20px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: #ccc;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #7B5587;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #34274F;
+}
+
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
+.boxy {
+  display: flex;
+}
+
+/* takes elements of boxy*/
+.boxy > * {
+  padding: 10px;
+  border: 2px solid rgb(95 97 110);
+  margin: 0 10px;
+  flex: 1;
+  filter: drop-shadow(black 0.5rem 0.5rem 3px);
+  flex-shrink: 0;
+  background-color: rgb(56 42 103 / .85);
+}
+
+button {
+  background-color: #7B5587; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover{
+  background-color: #34274F;
+}
