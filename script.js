@@ -1,7 +1,10 @@
-document.querySelector("#submit").addEventListener("click", display)
+document.querySelector("#submit").addEventListener("click", display);
 function display(){
-  if (!validateForm() == false) {
-      document.querySelector("#there").textContent = "Thank you for contacting us. We will get back to you as soon as possible"
+  if (validateForm()) {
+      document.querySelector("#there").textContent = "Thank you for contacting us. We will get back to you as soon as possible";
+  }
+  else{
+    document.querySelector("#there").textContent = "Please edit your responses and try again";
   }
 }
 
@@ -27,6 +30,9 @@ function validateForm() {
     alert("Please Enter A Query");
     return false;
   }
+  else{
+    return true;
+  }
 } 
 
 function ValidEmail{
@@ -34,5 +40,8 @@ function ValidEmail{
   if (email.includes(" ") || email.includes(",") || email.includes("-") || email.includes("_") || (!email.includes(".com") && !email.includes("@"))){
         alert("Please Enter A Valid Email Address");
     return false;
+  }
+  else{
+    return true;
   }
 }
